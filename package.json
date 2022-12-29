@@ -1,0 +1,21 @@
+{
+  "name": "dwa-theme",
+  "displayName": "dwa theme",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "dwa-theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dwa-theme-color-theme.json"
+      }
+    ]
+  }
+}
