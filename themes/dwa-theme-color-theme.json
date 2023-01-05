@@ -199,6 +199,13 @@
       }
     },
     {
+      "name": "Entity Types",
+      "scope": ["support.type.primitive"],
+      "settings": {
+        "foreground": "#FFCB6B"
+      }
+    },
+    {
       "name": "CSS Class and Support",
       "scope": [
         "source.css support.type.property-name",
@@ -254,6 +261,13 @@
       "scope": ["entity.other.attribute-name"],
       "settings": {
         "foreground": "#b1bbc0"
+      }
+    },
+    {
+      "name": "Attributes",
+      "scope": ["entity.other.attribute-name.id"],
+      "settings": {
+        "foreground": "#FFCB6B"
       }
     },
     {
