@@ -39,10 +39,17 @@
       }
     },
     {
-      "name": "Keyword, Storage",
-      "scope": ["keyword", "storage.type", "storage.modifier"],
+      "name": "Keyword",
+      "scope": ["keyword"],
       "settings": {
-        "foreground": "#769ddb"
+        "foreground": "#ccc"
+      }
+    },
+    {
+      "name": "Storage",
+      "scope": ["storage.type", "storage.modifier"],
+      "settings": {
+        "foreground": "#b086de"
       }
     },
     {
@@ -246,7 +253,7 @@
       "name": "Attributes",
       "scope": ["entity.other.attribute-name"],
       "settings": {
-        "foreground": "#bbb"
+        "foreground": "#b1bbc0"
       }
     },
     {
