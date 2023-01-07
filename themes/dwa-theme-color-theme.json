@@ -46,6 +46,13 @@
       }
     },
     {
+      "name": "Keyword",
+      "scope": ["keyword.declaration"],
+      "settings": {
+        "foreground": "#C792EA"
+      }
+    },
+    {
       "name": "Storage",
       "scope": ["storage.type", "storage.modifier"],
       "settings": {
