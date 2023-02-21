@@ -96,13 +96,6 @@
       }
     },
     {
-      "name": "Tag",
-      "scope": ["entity.name.tag"],
-      "settings": {
-        "foreground": "#769ddb"
-      }
-    },
-    {
       "name": "Function, Special Method",
       "scope": [
         "entity.name.function",
@@ -123,17 +116,32 @@
       }
     },
     {
+      "name": "Other",
+      "scope": ["meta.object.member variable.other.constant"],
+      "settings": {
+        "foreground": "#96B0DA"
+      }
+    },
+    {
+      "scope": ["meta.object-literal.key"],
+      "settings": {
+        "foreground": "#bbb",
+        "fontStyle": "italic"
+      }
+    },
+    {
       "name": "Block Level Variables",
       "scope": ["meta.block variable.other.object"],
       "settings": {
-        "foreground": "#96b0da"
+        "foreground": "#96b0da",
       }
     },
     {
       "name": "Block Level Variables",
       "scope": ["meta.block variable.other.object.property"],
       "settings": {
-        "foreground": "#ccc"
+        "foreground": "#ccc",
+        "fontStyle": "italic"
       }
     },
     {
@@ -156,7 +164,7 @@
         "keyword.other"
       ],
       "settings": {
-        "foreground": "#F78C6C"
+        "foreground": "#96b0da"
       }
     },
     {
@@ -187,7 +195,20 @@
         "support.type.sys-types"
       ],
       "settings": {
-        "foreground": "#FFCB6B"
+        "foreground": "#d4a516"
+      }
+    },
+    {
+      "name": "Tag",
+      "scope": ["entity.name.tag"],
+      "settings": {
+        "foreground": "#769ddb"
+      }
+    },
+    {
+      "scope": ["text.html.derivative meta.tag.other.unrecognized.html entity.name.tag.html"],
+      "settings": {
+        "foreground": "#84a847"
       }
     },
     {
@@ -209,7 +230,7 @@
       "name": "Entity Types",
       "scope": ["support.type.primitive"],
       "settings": {
-        "foreground": "#FFCB6B"
+        "foreground": "#d4a516"
       }
     },
     {
