@@ -116,6 +116,12 @@
       }
     },
     {
+      "scope": ["variable.other.readwrite"],
+      "settings": {
+        "foreground": "#d4a516"
+      }
+    },
+    {
       "name": "Other",
       "scope": ["meta.object.member variable.other.constant"],
       "settings": {
@@ -224,6 +230,12 @@
       "scope": ["support.type"],
       "settings": {
         "foreground": "#B2CCD6"
+      }
+    },
+    {
+      "scope": ["support.type.builtin"],
+      "settings": {
+        "foreground": "#d4a516"
       }
     },
     {
