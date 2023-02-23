@@ -116,7 +116,7 @@
       }
     },
     {
-      "scope": ["variable.other.readwrite"],
+      "scope": ["meta.objectliteral meta.object.member variable.other.readwrite"],
       "settings": {
         "foreground": "#d4a516"
       }
