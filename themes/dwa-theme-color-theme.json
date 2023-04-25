@@ -1,17 +1,14 @@
 {
   "name": "dwa-theme",
   "colors": {
-    "editor.background": "#1e1d1d",
-    "editor.foreground": "#ccc",
-    "activityBarBadge.background": "#648d24",
+    "editor.background": "#222",
+    "activityBarBadge.background": "#ce910d",
     "tab.activeBorder": "#84a847",
     "sideBarTitle.foreground": "#ddd",
     "sideBarSectionHeader.background": "#00000000",
-    "statusBar.background": "#333",
-    "sideBar.background": "#111",
-    "sideBar.border": "#333",
-    "activityBar.background": "#222",
-    "activityBar.border": "#222"
+    "statusBar.background": "#111",
+    "sideBar.background": "#141414",
+    "activityBar.background": "#53535254"
   },
   "tokenColors": [
     {
