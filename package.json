@@ -1,14 +1,23 @@
 {
   "name": "dwa-theme",
-  "displayName": "dwa theme",
-  "description": "",
+  "displayName": "dwa dark theme",
+  "description": "A theme to reduce eyestraint",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.74.0"
   },
+  "publisher": "DevWithAri",
   "categories": [
     "Themes"
   ],
+  "keywords": [
+    "dwa",
+    "dwa dark theme"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arridha-amrad/dwa-theme.git"
+  },
   "contributes": {
     "themes": [
       {
