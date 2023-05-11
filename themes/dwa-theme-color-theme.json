@@ -6,15 +6,21 @@
     "tab.activeBorder": "#84a847",
     "sideBarTitle.foreground": "#ccc",
     "sideBarSectionHeader.background": "#333",
-    "statusBar.background": "#222",
+    "statusBar.background": "#232323",
     "statusBar.border": "#111",
     "statusBar.foreground": "#a7a6a6",
     "sideBar.background": "#232323",
     "sideBar.border": "#000",
-    "activityBar.background": "#222",
+    "activityBar.background": "#232323",
     "activityBar.border": "#000"
   },
   "tokenColors": [
+    {
+      "scope": "support.variable.property",
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
     {
       "name": "Comment",
       "scope": ["comment", "punctuation.definition.comment"],
@@ -65,6 +71,12 @@
       }
     },
     {
+      "scope": "storage.modifier.async",
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
       "name": "Operator, Misc",
       "scope": [
         "keyword.control",
@@ -76,7 +88,8 @@
         "keyword.other.substitution"
       ],
       "settings": {
-        "foreground": "#f09916"
+        "foreground": "#f09916",
+        "fontStyle": "italic"
       }
     },
     {
@@ -126,6 +139,12 @@
       ],
       "settings": {
         "foreground": "#d4a516"
+      }
+    },
+    {
+      "scope": "variable.other.property",
+      "settings": {
+        "fontStyle": "italic"
       }
     },
     {
@@ -309,7 +328,8 @@
       "name": "Attributes",
       "scope": ["entity.other.attribute-name"],
       "settings": {
-        "foreground": "#b1bbc0"
+        "foreground": "#b1bbc0",
+        "fontStyle": "italic"
       }
     },
     {
