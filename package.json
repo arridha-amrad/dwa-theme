@@ -2,9 +2,9 @@
   "name": "dwa-theme",
   "displayName": "dwa dark theme",
   "description": "A theme to reduce eyestraint",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "engines": {
-    "vscode": "^1.74.0"
+    "vscode": "^1.78.1"
   },
   "publisher": "DevWithAri",
   "categories": [

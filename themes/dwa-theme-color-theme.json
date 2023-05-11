@@ -16,9 +16,9 @@
   },
   "tokenColors": [
     {
-      "scope": "support.variable.property",
+      "scope": ["punctuation.definition.template-expression"],
       "settings": {
-        "fontStyle": "italic"
+        "foreground": "#2289d2"
       }
     },
     {
@@ -71,12 +71,6 @@
       }
     },
     {
-      "scope": "storage.modifier.async",
-      "settings": {
-        "fontStyle": "italic"
-      }
-    },
-    {
       "name": "Operator, Misc",
       "scope": [
         "keyword.control",
@@ -88,8 +82,7 @@
         "keyword.other.substitution"
       ],
       "settings": {
-        "foreground": "#f09916",
-        "fontStyle": "italic"
+        "foreground": "#f09916"
       }
     },
     {
@@ -111,6 +104,13 @@
       "scope": ["meta.tag.sgml", "markup.deleted.git_gutter"],
       "settings": {
         "foreground": "#cbcbcb"
+      }
+    },
+    {
+      "scope": ["entity.name.function"],
+      "settings": {
+        "foreground": "#9bc355",
+        "fontStyle": "italic"
       }
     },
     {
