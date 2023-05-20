@@ -109,8 +109,7 @@
     {
       "scope": ["entity.name.function"],
       "settings": {
-        "foreground": "#9bc355",
-        "fontStyle": "italic"
+        "foreground": "#9bc355"
       }
     },
     {
@@ -142,12 +141,6 @@
       }
     },
     {
-      "scope": "variable.other.property",
-      "settings": {
-        "fontStyle": "italic"
-      }
-    },
-    {
       "name": "Other",
       "scope": ["meta.object.member variable.other.constant"],
       "settings": {
@@ -157,8 +150,7 @@
     {
       "scope": ["meta.object-literal.key"],
       "settings": {
-        "foreground": "#bbb",
-        "fontStyle": "italic"
+        "foreground": "#bbb"
       }
     },
     {
@@ -172,8 +164,7 @@
       "name": "Block Level Variables",
       "scope": ["meta.block variable.other.object.property"],
       "settings": {
-        "foreground": "#ccc",
-        "fontStyle": "italic"
+        "foreground": "#ccc"
       }
     },
     {
@@ -249,8 +240,7 @@
       "name": "Class, Support",
       "scope": ["support.class.component"],
       "settings": {
-        "foreground": "#7daf00",
-        "fontStyle": "bold"
+        "foreground": "#7daf00"
       }
     },
     {
@@ -302,7 +292,6 @@
       "name": "Language methods",
       "scope": ["variable.language"],
       "settings": {
-        "fontStyle": "italic",
         "foreground": "#769ddb"
       }
     },
@@ -310,7 +299,6 @@
       "name": "entity.name.method.js",
       "scope": ["entity.name.method.js"],
       "settings": {
-        "fontStyle": "italic",
         "foreground": "#82AAFF"
       }
     },
@@ -328,8 +316,7 @@
       "name": "Attributes",
       "scope": ["entity.other.attribute-name"],
       "settings": {
-        "foreground": "#b1bbc0",
-        "fontStyle": "italic"
+        "foreground": "#b1bbc0"
       }
     },
     {
@@ -346,7 +333,6 @@
         "text.html.basic entity.other.attribute-name"
       ],
       "settings": {
-        "fontStyle": "italic",
         "foreground": "#FFCB6B"
       }
     },
@@ -413,7 +399,6 @@
         "tag.decorator.js punctuation.definition.tag.js"
       ],
       "settings": {
-        "fontStyle": "italic",
         "foreground": "#82AAFF"
       }
     },
@@ -423,7 +408,6 @@
         "source.js constant.other.object.key.js string.unquoted.label.js"
       ],
       "settings": {
-        "fontStyle": "italic",
         "foreground": "#FF5370"
       }
     },
